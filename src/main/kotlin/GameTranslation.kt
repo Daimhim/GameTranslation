@@ -15,10 +15,7 @@ import javax.crypto.spec.SecretKeySpec
 import javax.xml.bind.DatatypeConverter
 import kotlin.collections.HashMap
 
-val sourceFile = File("C:\\Users\\Daimhim\\Downloads\\Compressed\\game\\WhereTheHeartIs-Ep20-pc\\game\\tl\\chinese")
-//val sourceFile = File("C:\\Users\\Daimhim\\Downloads\\Compressed\\game\\WhereTheHeartIs-Ep20-pc\\game\\tl")
-
-//val sourceFile = File("C:\\Users\\Daimhim\\Downloads\\Compressed\\game\\WaterWorld-1.1.0-pc\\game\\tl")
+val sourceFile = File("*")
 val temporaryFilesXlsx = File("${System.getProperty("user.dir")}${File.separator}temporaryFiles.xlsx")
 
 
